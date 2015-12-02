@@ -61,7 +61,7 @@ appRouter.navigate("home", { trigger: true });
 
  var data = {};
 
- RestServiceJs('http://localhost/delete.php?article_id='+id,data,"DELETE",a);  
+ RestServiceJs('http://adenzil.github.io/blog/delete.php?article_id='+id,data,"DELETE",a);  
   
 
  this.undelegateEvents();

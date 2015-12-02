@@ -98,7 +98,7 @@ var count=0;
                           
                          
                             
-                             Rest('http://localhost/ap.php?action=get_page&per_page='+per_page+'&page='+pg_no+'&query='+q + str,"GET",a);  
+                             Rest('http://adenzil.github.io/blog/ap.php?action=get_page&per_page='+per_page+'&page='+pg_no+'&query='+q + str,"GET",a);  
   
                             
                          
@@ -106,7 +106,7 @@ var count=0;
 
                         else{
                               count=0;
-                            Rest('http://localhost/ap.php?action=get_page&per_page='+per_page+'&page='+pg_no+'&query='+q + '&tag='+tag,"GET",a);  
+                            Rest('http://adenzil.github.io/blog/ap.php?action=get_page&per_page='+per_page+'&page='+pg_no+'&query='+q + '&tag='+tag,"GET",a);  
                             
                         }
                        
