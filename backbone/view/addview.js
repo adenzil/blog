@@ -77,7 +77,7 @@ else{
               var data = {title:this.$el.find('#title').val(), post:sHTML, tag:this.$el.find('#tag').val().split(",")};
               
               
-        RestServiceJs('http://localhost/articles.php',data,"POST",a);  
+        RestServiceJs('https://github.com/adenzil/blog/tree/gh-pages/articles.php',data,"POST",a);  
         
       },
 
@@ -95,7 +95,7 @@ function a()
  var sHTML = $('#summernote').code();
  var data = {title:this.$el.find("#title")[0].value, post:sHTML, tag:this.$el.find('#tag').val().split(",")};
 
- RestServiceJs('http://localhost/put.php?article_id='+id,data,"PUT",a);  
+ RestServiceJs('https://github.com/adenzil/blog/tree/gh-pages/put.php?article_id='+id,data,"PUT",a);  
 
  
          this.undelegateEvents();

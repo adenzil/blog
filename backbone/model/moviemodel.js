@@ -24,7 +24,7 @@
                                               //$("#LOW").html('');
                                               $("#top2r").html('');
                                    $.ajax({        
-                                            url: 'http://localhost/getarticle.php?article_id='+id,
+                                            url: 'https://github.com/adenzil/blog/tree/gh-pages/getarticle.php?article_id='+id,
                                             success:function(data){
                                                var obj=data;
 
@@ -88,7 +88,7 @@
                                             else{
                                                
                                                      $.ajax({        
-                                                              url: 'http://localhost/getarticle.php?article_id='+id,
+                                                              url: 'https://github.com/adenzil/blog/tree/gh-pages/getarticle.php?article_id='+id,
                                                               success:function(data){
                                                                  var obj=data;
 
