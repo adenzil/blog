@@ -53,9 +53,6 @@
 
                             $('#tag').append(tago({"tag" : obj.data.tag}));
 
-
-
-
                                                 }
                                             });
                                             
